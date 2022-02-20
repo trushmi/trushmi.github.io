@@ -1,0 +1,41 @@
+@import '/src/style/variables.scss';
+
+.nav-container {
+  .nav-block {
+    display: flex;
+    padding: 0;
+  }
+  .nav-item {
+    list-style: none;
+    cursor: pointer;
+    margin-right: 5px;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.4s ease;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: $main-color;
+    letter-spacing: 2px;
+    position: relative;
+    transition: all 0.2s ease;
+    padding: 0px 10px 15px 10px;
+    @media screen and (max-width: $mobile-bp) {
+      padding: 10px 5px;
+      font-size: 14px;
+    }
+  }
+
+  .nav-link.active::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: $main-color;
+    width: 80%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+}

@@ -1,0 +1,26 @@
+@import '/src/style/variables.scss';
+
+.about-story {
+  font-size: 1.3rem;
+  background-color: transparent;
+  flex: 1;
+
+  .name {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .main-description {
+    padding-top: 30px;
+    line-height: 1.6;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .about-story {
+    text-align: center;
+    width: 90%;
+  }
+  .main-description {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

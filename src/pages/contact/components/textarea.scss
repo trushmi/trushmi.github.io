@@ -1,0 +1,13 @@
+@import '/src/style/variables.scss';
+
+.text-area-container {
+  .text-area {
+    width: 89%;
+    font-size: 1rem;
+    border: 1px solid $border-main-color;
+    outline: none;
+    padding: 10px;
+    display: block;
+    width: 100%;
+  }
+}

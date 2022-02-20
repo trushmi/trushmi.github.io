@@ -1,0 +1,10 @@
+@import '/src/style/variables.scss';
+.logo-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+
+  .logo {
+    width: 300px;
+  }
+}

@@ -1,0 +1,20 @@
+@import '/src/style/variables.scss';
+
+.btn {
+  font-size: 18px;
+  padding: 8px 25px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1.3px solid $brand-color;
+  cursor: pointer;
+  &.secondary {
+    background-color: $main-color;
+    color: $brand-color;
+    cursor: pointer;
+  }
+}
+.btn:hover {
+  transform: scale(0.97);
+  color: $main-color;
+  background-color: $brand-color;
+}

@@ -1,0 +1,45 @@
+@import '/src/style/variables.scss';
+
+.show-weather-container {
+  margin-top: 30px;
+  .additional-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .temperature-title {
+    font-size: 60px;
+    padding-top: 15px;
+  }
+  .user-location {
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 420px;
+  }
+  .title-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  .convertor-button {
+    margin: 40px;
+    cursor: pointer;
+    background: $brand-color;
+    color: $brand-color-2;
+    font-size: 18px;
+    border: 1px solid $brand-color;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  .place-name-icon {
+    stroke-width: 0;
+  }
+  .forecast-details-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

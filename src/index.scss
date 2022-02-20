@@ -1,0 +1,18 @@
+@import './style/commons.scss';
+@import '/src/style/variables.scss';
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $brand-color;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

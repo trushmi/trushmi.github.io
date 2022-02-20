@@ -1,0 +1,17 @@
+@import '/src/style/variables.scss';
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: none;
+  @media screen and (max-width: $mobile-bp) {
+    display: block;
+  }
+  .projects-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    margin: 70px 20px;
+  }
+}

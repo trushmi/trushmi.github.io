@@ -1,0 +1,42 @@
+@import '/src/style/variables.scss';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+
+  border: 1px solid $main-color;
+  color: $main-color;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  height: 310px;
+
+  &:hover {
+    background-color: $main-color;
+    box-shadow: 4px 17px 21px 7px rgba(0, 0, 0, 0.27);
+    color: $second-main-color;
+    .card-logo:after {
+      background-color: $second-main-color;
+    }
+  }
+  .card-logo {
+    padding-bottom: 50px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+  }
+  .card-logo:after {
+    content: '';
+    position: absolute;
+    height: 1.5px;
+    background-color: $main-color;
+    width: 40%;
+    left: 30%;
+    bottom: 0px;
+  }
+  .card-description {
+    margin-top: 50px;
+    max-width: 130px;
+  }
+}

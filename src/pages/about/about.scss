@@ -1,0 +1,71 @@
+@import '/src/style/variables.scss';
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: $second-main-color;
+  background-color: $main-color;
+  width: 100%;
+  .about-content {
+    max-width: 1024px;
+  }
+  .header-about {
+    background-color: transparent;
+    width: 100%;
+  }
+  .main-about-skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    background-color: white;
+  }
+  .header-about-content {
+    display: flex;
+  }
+
+  .experience-education-container {
+    background-color: $brand-color;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .overview-container {
+    text-align: center;
+    margin: 30px 0px 50px;
+
+    .overview-title {
+      color: black;
+      font-size: 1.4rem;
+      padding-bottom: 10px;
+      font-weight: bold;
+    }
+    .overview-content {
+      color: gray;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  }
+  @media only screen and (max-width: 867px) {
+    .overview-container {
+      .overview-content {
+        width: 90%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .about-container {
+    .header-about-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .main-about-skills {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+}
