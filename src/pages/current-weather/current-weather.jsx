@@ -12,7 +12,7 @@ export default function CurrentWeather() {
   const [place, setPlace] = useState("");
 
   const getWeatherUrl = (lat, lon) => {
-    return `http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=ba387a944d8e36793cf42771b0f9482e&lat=${lat}&lon=${lon}&units=imperial`;
+    return `https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=ba387a944d8e36793cf42771b0f9482e&lat=${lat}&lon=${lon}&units=imperial`;
   };
 
   const getWeather = async (placeId) => {
