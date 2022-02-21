@@ -1,6 +1,5 @@
 import About from "../../pages/about/about";
 import Projects from "../../pages/projects/projects";
-import Contact from "../../pages/contact/contact";
 import FortuneCookie from "../../pages/fortune-cookie/fortune-cookie-page";
 import ToDoList from "../../pages/to-do-list/to-do-list";
 import CurrentWeather from "../../pages/current-weather/current-weather";
@@ -15,11 +14,6 @@ export const routesConfig = [
     path: "/about",
     element: <About />,
     title: "Resume",
-  },
-  {
-    path: "/contact",
-    element: <Contact />,
-    title: "Contact",
   },
   {
     path: "/fortuneCookie",

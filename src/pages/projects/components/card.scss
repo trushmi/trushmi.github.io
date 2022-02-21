@@ -4,14 +4,19 @@
   display: flex;
   flex-direction: column;
   padding: 50px 20px;
-
   border: 1px solid $main-color;
   color: $main-color;
   cursor: pointer;
   background-color: transparent;
   text-decoration: none;
   height: 310px;
+  align-items: center;
 
+  @media screen and (max-width: $mobile-bp) {
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+  }
   &:hover {
     background-color: $main-color;
     box-shadow: 4px 17px 21px 7px rgba(0, 0, 0, 0.27);
@@ -25,6 +30,7 @@
     font-weight: bold;
     position: relative;
     text-decoration: none;
+    font-weight: bold;
   }
   .card-logo:after {
     content: '';
@@ -38,5 +44,8 @@
   .card-description {
     margin-top: 50px;
     max-width: 130px;
+  }
+  @media screen and (max-width: $mobile-bp) {
+    max-width: 220px;
   }
 }

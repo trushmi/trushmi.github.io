@@ -8,7 +8,6 @@
   min-height: 600px;
   padding: 20px;
   width: 100%;
-  margin: 50px 0;
 
   .to-do-list-title {
     text-align: center;
@@ -54,7 +53,7 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 16px;
     border-bottom: 2px dotted $brand-color;
   }
   .close-icon {
@@ -117,7 +116,6 @@
     .to-do-list-container {
       width: 200px;
       min-height: 600px;
-      margin: 50px 0;
     }
   }
 }

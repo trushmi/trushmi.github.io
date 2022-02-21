@@ -5,7 +5,7 @@
   justify-content: center;
   flex-wrap: wrap;
   color: $second-main-color;
-  background-color: $main-color;
+  background-color: $main-background-color;
   width: 100%;
   .about-content {
     max-width: 1024px;
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 50px;
-    background-color: white;
+    background-color: $main-background-color;
   }
   .header-about-content {
     display: flex;
@@ -35,7 +35,7 @@
     margin: 30px 0px 50px;
 
     .overview-title {
-      color: black;
+      color: $second-main-color;
       font-size: 1.4rem;
       padding-bottom: 10px;
       font-weight: bold;
