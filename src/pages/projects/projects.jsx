@@ -23,6 +23,24 @@ export default function Projects() {
       cardField: "game",
       link: "/fortuneCookie",
     },
+    {
+      cardTitle: "Words Counter",
+      cardDescription: "Count words in your text",
+      cardField: "office",
+      link: "/wordsCounter",
+    },
+    {
+      cardTitle: "News",
+      cardDescription: "Read the top stories ",
+      cardField: "news",
+      link: "/news",
+    },
+    {
+      cardTitle: "Movie app",
+      cardDescription: "Movies that coming soon ",
+      cardField: "movie",
+      link: "/movie",
+    },
   ];
   return (
     <div className="card-container">

@@ -1,4 +1,4 @@
-@import '/src/style/variables.scss';
+@import "/src/style/variables.scss";
 
 .to-do-list-container {
   background-color: $main-background-color;
@@ -68,7 +68,7 @@
   }
 
   .task-button-container {
-    color: white;
+    color: $main-color;
   }
   .edit-button {
     cursor: pointer;
@@ -79,16 +79,16 @@
       opacity: 1;
     }
   }
-
   .total-information {
     width: 100%;
     padding: 20px 10px;
-    border-radius: 10px;
-    text-align: right;
+    text-align: center;
+  }
+  .show-total-tasks-to-do {
+    font-size: 18px;
   }
   .edit-task-form {
     display: flex;
-    width: 430px;
   }
   .task-editor {
     background-color: transparent;
@@ -96,7 +96,6 @@
     color: $second-main-color;
     font-size: 20px;
     outline: none;
-    width: 360px;
     display: block;
   }
   .edit-task-check-button {
@@ -110,12 +109,18 @@
     font-size: 18px;
     cursor: pointer;
   }
-  .task-editor-button-wrapper {
+  .added-task-form-wrapper {
+    width: 100%;
+  }
+  .delete-all-task-btn {
+    margin-top: 10px;
   }
   @media only screen and (max-width: 400px) {
     .to-do-list-container {
-      width: 200px;
       min-height: 600px;
+    }
+    .task-editor-button-wrapper {
+      display: flex;
     }
   }
 }

@@ -5,13 +5,21 @@
   flex-direction: row;
   background-color: transparent;
   border: none;
+  flex-wrap: wrap;
   @media screen and (max-width: $mobile-bp) {
     display: block;
+  }
+  @media screen and (max-width: $tablet-mode) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 1400px) {
+    justify-content: center;
   }
   .projects-link {
     display: block;
     text-decoration: none;
     color: inherit;
-    margin: 0 20px;
+    margin: 10px 20px;
+    min-width: 195px;
   }
 }

@@ -9,8 +9,6 @@ export default function Footer() {
         <FaFish className="footer-icon" />
       </div>
       <div className="footer-description">
-        <div className="footer-privacy">Terms and Privacy</div>
-        <div>|</div>
         <div className="footer-title"> © 2022 M-I Trush </div>
       </div>
     </div>

@@ -1,0 +1,52 @@
+@import "/src/style/variables.scss";
+
+.words-counter-container {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1050px;
+  background: $main-background-color;
+  padding: 30px;
+  border-radius: 10px;
+
+  .clear-data-btn {
+    color: $second-main-color;
+    font-size: 16px;
+    padding: 13px 30px;
+    background: $brand-color;
+    cursor: pointer;
+    border: none;
+  }
+  .show-words-counter-result {
+    margin: 20px;
+  }
+  .clear-data-btn:hover {
+    background-color: $second-main-color;
+    font-size: 16px;
+    padding: 13px 30px;
+    color: $brand-color;
+    cursor: pointer;
+    border: none;
+  }
+  .words-counter-title {
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .words-counter-title::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: $brand-color;
+    width: 20%;
+    opacity: 0.6;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  @media screen and (max-width: $mobile-bp) {
+    margin: 20px;
+    width: 470px;
+  }
+}

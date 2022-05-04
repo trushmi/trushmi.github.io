@@ -73,8 +73,8 @@ export default function FortuneCookie() {
     <div className="fortune-cookie-container">
       <div className="open-fortune-cookie-title">Open your fortune cookie:</div>
       <div className="open-cookie-subtitle">*As many as you want</div>
-      <div className="fortune-img">
-        {prediction && <div className="prediction"> {prediction}</div>}
+      <div className="fortune-img" onClick={showPrediction}>
+        {prediction && <div className="prediction">{prediction}</div>}
       </div>
       <Btn
         onClick={showPrediction}

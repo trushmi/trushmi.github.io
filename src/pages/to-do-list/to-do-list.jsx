@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./to-do-list.scss";
 import { AiOutlineClose, AiOutlineCheck } from "react-icons/ai";
 import { FiTrash } from "react-icons/fi";
-
 import { GrEdit } from "react-icons/gr";
+import Btn from "../../components/btn/btn";
 
 const capitalLetter = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -53,6 +53,9 @@ export default function ToDoList() {
     setIndexToEdit(null);
     setTaskToEdit(null);
   };
+  const clearAllTask = () => {
+    setTaskList([]);
+  };
 
   let number = taskList.length > 1 ? "tasks" : "task";
   let totalText = `You have ${taskList.length} ${number} to do `;
@@ -77,7 +80,7 @@ export default function ToDoList() {
             {taskList.map((item, index) => (
               <li key={index} className="created-task">
                 {indexToEdit === index ? (
-                  <div>
+                  <div className="added-task-form-wrapper">
                     <form
                       onSubmit={(e) => saveTaskToEdit(e, index)}
                       className="edit-task-form"
@@ -123,7 +126,20 @@ export default function ToDoList() {
         </div>
 
         <div className="total-information">
-          {taskList.length > 0 ? totalText : ""}
+          <div className="show-total-tasks-to-do">
+            {taskList.length > 0 ? totalText : ""}
+            {taskList.length > 0 ? (
+              <div className="delete-all-task-btn">
+                <Btn
+                  onClick={clearAllTask}
+                  btnText={"Delete all tasks"}
+                  style="secondary"
+                />
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
         </div>
       </div>
     </div>

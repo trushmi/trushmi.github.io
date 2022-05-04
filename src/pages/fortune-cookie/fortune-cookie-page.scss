@@ -1,4 +1,4 @@
-@import '/src/style/variables.scss';
+@import "/src/style/variables.scss";
 
 .fortune-cookie-container {
   background-color: $main-background-color;
@@ -16,7 +16,7 @@
     position: relative;
   }
   .open-fortune-cookie-title::after {
-    content: '';
+    content: "";
     position: absolute;
     height: 4px;
     background-color: $brand-color;
@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     margin: 50px 30px;
     max-width: 500px;
     height: 250px;

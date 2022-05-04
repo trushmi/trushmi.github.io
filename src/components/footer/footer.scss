@@ -1,9 +1,9 @@
-@import '/src/style/variables.scss';
+@import "/src/style/variables.scss";
 
 .footer-container {
   color: $main-color;
   .footer-icon {
-    margin-top: 30px 0px 5px 9px;
+    margin: 30px 0px 5px 9px;
     font-size: 30px;
     stroke-width: 0.4;
     opacity: 0.9;
