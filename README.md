@@ -1,6 +1,7 @@
 # My personal website
 This is personal website-playground. It features several projects I work on to improve my
 Javascript/React knowladge and Web development skills.
+Available on: https://mariatrush.com/ 
 ## Projects:
 #### Weather project
 Uses open weather API and Google place autocomplete to dispay the current weather in the city you choose. 
