@@ -1,14 +1,15 @@
-@import '/src/style/variables.scss';
+@import "/src/style/variables.scss";
 
 .btn {
   font-size: 18px;
   padding: 8px 25px;
-  border-radius: 6px;
+  border-radius: 2px;
   background-color: transparent;
-  border: 1.3px solid $brand-color;
+  //border: 1.3px solid $brand-color;
+  border: none;
   cursor: pointer;
   &.secondary {
-    background-color: $main-color;
+    background-color: $green-main-color;
     color: $brand-color;
     cursor: pointer;
   }

@@ -22,5 +22,11 @@ const questions = [
     answer:
       "A Silicon Valley unicorn is the term given to a private startup in the region that is valued at over $1 billion. The term unicorn is commonly used in the venture capital industry. For instance, San Jose-based Zoom Video Communications (ZM) was valued at $1 billion in 2017. Founded in 2011, the company went public in 2019",
   },
+  {
+    id: 5,
+    title: "What Does Silicon Valley Unicorn Mean?",
+    answer:
+      "A Silicon Valley unicorn is the term given to a private startup in the region that is valued at over $1 billion. The term unicorn is commonly used in the venture capital industry. For instance, San Jose-based Zoom Video Communications (ZM) was valued at $1 billion in 2017. Founded in 2011, the company went public in 2019",
+  },
 ];
 export default questions;

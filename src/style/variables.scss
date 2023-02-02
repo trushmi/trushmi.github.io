@@ -1,10 +1,12 @@
 $main-color: white;
 $second-main-color: #0a0a0a;
-$brand-color: #2caeba;
+$brand-color: linear-gradient(to right, rgb(52, 200, 150), rgb(18, 49, 65));
 $brand-color-2: #bff8fd;
 $second-brand-color: #3482c3;
 $header-background-color: #0b71c7;
 $main-background-color: whitesmoke;
-$border-main-color: rgb(186, 185, 185);
+//$border-main-color: rgb(186, 185, 185);
+$border-main-color: white;
 $mobile-bp: 768px;
 $tablet-mode: 1024px;
+$green-main-color: rgba(39, 141, 117, 255);

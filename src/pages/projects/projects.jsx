@@ -6,10 +6,19 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   const cardData = [
     {
-      cardTitle: "Weather",
-      cardDescription: "Check the weather in the city right now",
-      cardField: "forecast",
-      link: "/forecast",
+      cardTitle: "TV show & your time",
+      cardDescription:
+        "Help you track how much time you have spend watching TV",
+      cardField: "movie",
+      link: "https://chic-sprinkles-594e54.netlify.app/",
+      isExternal: true,
+    },
+    {
+      cardTitle: "UWWC",
+      cardDescription: "React app for community",
+      cardField: "work",
+      link: "https://uawwc.com/",
+      isExternal: true,
     },
     {
       cardTitle: "To do list",
@@ -29,12 +38,7 @@ export default function Projects() {
       cardField: "office",
       link: "/wordsCounter",
     },
-    {
-      cardTitle: "News",
-      cardDescription: "Read the top stories ",
-      cardField: "news",
-      link: "/news",
-    },
+
     {
       cardTitle: "Movie app",
       cardDescription: "Movies that coming soon ",
@@ -42,18 +46,28 @@ export default function Projects() {
       link: "/movie",
     },
   ];
+
   return (
     <div className="card-container">
       {cardData.map(
-        ({ cardTitle, cardDescription, cardField, link }, index) => (
-          <Link to={link} className="projects-link" key={index}>
-            <Card
-              cardTitle={cardTitle}
-              cardDescription={cardDescription}
-              cardField={cardField}
-            />
-          </Link>
-        )
+        ({ cardTitle, cardDescription, cardField, link, isExternal }, index) =>
+          isExternal ? (
+            <a href={link} className="projects-link">
+              <Card
+                cardTitle={cardTitle}
+                cardDescription={cardDescription}
+                cardField={cardField}
+              />
+            </a>
+          ) : (
+            <Link to={link} className="projects-link" key={index}>
+              <Card
+                cardTitle={cardTitle}
+                cardDescription={cardDescription}
+                cardField={cardField}
+              />
+            </Link>
+          )
       )}
     </div>
   );

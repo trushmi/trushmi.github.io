@@ -14,13 +14,12 @@ export default function WordsCounter() {
   let word = text.length === 1 ? "word" : "words";
   let characters = text.length === 1 ? "character" : "characters";
   let numOfCharacters = text.length;
-  const usersText = document.getElementById("users-text");
 
   const clearText = (e) => {
     e.preventDefault();
     setText("");
-    usersText.value = "";
   };
+
   return (
     <div className="words-counter-container">
       <h2 className="words-counter-title">Words counter:</h2>
@@ -30,6 +29,7 @@ export default function WordsCounter() {
         id="users-text"
         cols="80"
         rows="20"
+        value={text}
         onChange={(e) => setText(e.target.value)}
         className="user-text"
       ></textarea>

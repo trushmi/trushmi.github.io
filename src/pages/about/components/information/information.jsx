@@ -1,12 +1,12 @@
 import React from "react";
 import Btn from "../../../../components/btn/btn";
-import Skills from "../skills/skills";
-import Overview from "../overview/overview";
+//import Skills from "../skills/skills";
+//import Overview from "../overview/overview";
 import "./information.scss";
 
 const name = ["Maria-Iryna Trush"];
 
-export default function Text({ skillsSet }) {
+export default function Text() {
   return (
     <div className="about-story">
       Hi! My name is

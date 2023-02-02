@@ -2,11 +2,13 @@ import About from "../../pages/about/about";
 import Projects from "../../pages/projects/projects";
 import FortuneCookie from "../../pages/fortune-cookie/fortune-cookie-page";
 import ToDoList from "../../pages/to-do-list/to-do-list";
-import CurrentWeather from "../../pages/current-weather/current-weather";
 import WordsCounter from "../../pages/words-counter/WordsCounter";
-import News from "../../pages/news/news";
 import ComingSoonMovies from "../movies/ComingSoonMovies";
-import FrequentlyAskedQuestion from "../FrequentlyAskedQ/FrequentlyAskedQuestion";
+// import FrequentlyAskedQuestion from "../FrequentlyAskedQ/FrequentlyAskedQuestion";
+// import Contact from "../../pages/contact/contact";
+// import News from "../../pages/news/news";
+// import CurrentWeather from "../../pages/current-weather/current-weather";
+
 export const routesConfig = [
   {
     path: "/",
@@ -18,6 +20,11 @@ export const routesConfig = [
     element: <About />,
     title: "Resume",
   },
+  // {
+  //   path: "/contact",
+  //   element: <Contact />,
+  //   title: "Contact",
+  // },
   {
     path: "/fortuneCookie",
     element: <FortuneCookie />,
@@ -30,34 +37,34 @@ export const routesConfig = [
     title: "To do list",
     omitNavigationLink: true,
   },
-  {
-    path: "/forecast",
-    element: <CurrentWeather />,
-    title: "Check the wether",
-    omitNavigationLink: true,
-  },
+  // {
+  //   path: "/forecast",
+  //   element: <CurrentWeather />,
+  //   title: "Check the wether",
+  //   omitNavigationLink: true,
+  // },
   {
     path: "/wordsCounter",
     element: <WordsCounter />,
     title: "Count words in your text",
     omitNavigationLink: true,
   },
-  {
-    path: "/news",
-    element: <News />,
-    title: "top stories",
-    omitNavigationLink: true,
-  },
+  // {
+  //   path: "/news",
+  //   element: <News />,
+  //   title: "top stories",
+  //   omitNavigationLink: true,
+  // },
   {
     path: "/movie",
     element: <ComingSoonMovies />,
     title: "Movies Coming Soon",
     omitNavigationLink: true,
   },
-  {
-    path: "/faq",
-    element: <FrequentlyAskedQuestion />,
-    title: "faq",
-    omitNavigationLink: true,
-  },
+  // {
+  //   path: "/faq",
+  //   element: <FrequentlyAskedQuestion />,
+  //   title: "faq",
+  //   omitNavigationLink: true,
+  // },
 ];
