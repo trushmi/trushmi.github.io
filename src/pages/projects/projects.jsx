@@ -8,7 +8,7 @@ export default function Projects() {
     {
       cardTitle: "Vocab",
       cardDescription:
-      "Full stack application that helps to learn new words faster and easier while keeping them organized in one place",
+        "Full stack application that helps to learn new languages ",
       cardField: "education",
       link: "https://github.com/trushmi/vocab",
       isExternal: true,

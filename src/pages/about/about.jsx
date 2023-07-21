@@ -12,16 +12,27 @@ import house from "./images/house.png";
 import lmf from "./images/lmf.png";
 import citysites from "./images/citysites.jpeg";
 import logo032 from "./images/logo032.png";
+import bootcamp from "./images/bootcamp.png";
+
 const skillsData = [
   {
     icon: <FiCheckSquare />,
     title: "Technical skills",
-    skills: ["JavaScript", "React", "HTML", "CSS", "SASS"],
+    skills: [
+      "JavaScript",
+      "React",
+      "HTML",
+      "CSS",
+      "SASS",
+      "Python",
+      "Flask",
+      "SQL",
+    ],
   },
   {
     icon: <FiDatabase />,
     title: "Background",
-    skills: ["Journalism", "Marketing", "Project managment"],
+    skills: ["Journalism", "Marketing", "Program managment"],
   },
   {
     icon: <FiUserCheck />,
@@ -36,6 +47,15 @@ const skillsData = [
 ];
 const experienceData = [
   {
+    name: "Software Engineering Student",
+    icon: <img src={bootcamp} />,
+    institution: "Hackbright Academy",
+    description: [
+      " Developed skills and knowledge across fundamentals of data structures, algorithms, testing, front-end, back-end, and database programming using Python, Javascript, HTML, Bootstrap",
+      "Collaborate on pair-programming assignments with cohort colleagues. Daily lab projects include building databases, testing, utilizing APIs, creating sessions, etc",
+    ],
+  },
+  {
     name: "Program Manager, Media",
     icon: <img src={citysites} />,
     institution: "CitySitesGlobal",
@@ -47,7 +67,7 @@ const experienceData = [
     ],
   },
   {
-    name: "Editor In Chief",
+    name: "Editor In Chief, Content Manager",
     icon: <img src={logo032} />,
     institution: "Website 032.ua ",
     description: [
@@ -57,13 +77,6 @@ const experienceData = [
       "Developed social media audience channels.",
       "Coaching junior content managers.",
       "Conducted interviews, investigated stories, wrote SEO content for the website.",
-    ],
-  },
-  {
-    name: "Content Manager",
-    icon: <img src={logo032} />,
-    institution: "Website 032.ua ",
-    description: [
       "Worked closely with the Leadership and Sales teams in order to develop content.",
       "Worked with the custom WordPress-like CRM.",
       "Written dozens of key SEO pieces which indexed particularly well in high-demand categories.",
@@ -74,6 +87,13 @@ const experienceData = [
 const educationData = [
   {
     title: "Education:",
+    icon: <img src={bootcamp} />,
+    name: "Hackbright Academy coding bootcamp",
+    institution: "Full stack software engineer ",
+    years: "2023",
+    description: "Accelerated full-stack soware engineering program",
+  },
+  {
     icon: <img src={unirevsity} />,
     name: "Ivan Franko National University of Lviv",
     institution: "Master's degree, Journalism",

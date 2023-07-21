@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./logo.scss";
 import logo from "./logo2.png";
+
 export default function Logo() {
   return (
     <NavLink to="/" className="logo-container">
