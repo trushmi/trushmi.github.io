@@ -60,7 +60,7 @@ export default function Projects() {
       {cardData.map(
         ({ cardTitle, cardDescription, cardField, link, isExternal }, index) =>
           isExternal ? (
-            <a href={link} className="projects-link">
+            <a href={link} className="projects-link" key={index}>
               <Card
                 cardTitle={cardTitle}
                 cardDescription={cardDescription}
