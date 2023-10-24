@@ -24,23 +24,23 @@
     border: 1px solid $brand-color;
     color: $second-main-color;
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     outline: none;
     display: block;
     flex: 1;
   }
   .task-submit-btn {
-    color: $second-main-color;
+    // color: $second-main-color;
     font-size: 16px;
     padding: 13px 30px;
-    background: $brand-color;
+    // background: $brand-color;
     cursor: pointer;
     border: none;
   }
-  .task-submit-btn:hover {
-    background-color: $second-main-color;
-    color: $brand-color;
-  }
+  // .task-submit-btn:hover {
+  //   background-color: $second-main-color;
+  //   color: $brand-color;
+  // }
   .aded-task {
     text-align: center;
     margin: 0 auto;

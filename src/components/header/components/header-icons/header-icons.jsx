@@ -9,7 +9,7 @@ const icons = [
   { icon: <AiOutlineGithub />, link: "https://github.com/trushmi" },
   {
     icon: <TiSocialLinkedin />,
-    link: "https://www.linkedin.com/in/mariia-iryna-trush/",
+    link: "https://www.linkedin.com/in/trushmi/",
   },
   { icon: <SiLeetcode />, link: "https://leetcode.com/trushMI/" },
 ];

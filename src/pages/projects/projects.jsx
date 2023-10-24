@@ -6,53 +6,58 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   const cardData = [
     {
+      cardTitle: "AI: Review Analyzer",
+      cardDescription: "NLP-based tool for classifying reviews",
+      cardField: "education",
+      link: "https://github.com/trushmi/review-sentiment-analyzer",
+      isExternal: true,
+    },
+    {
       cardTitle: "Vocab",
-      cardDescription:
-        "Full stack application that helps to learn new languages ",
+      cardDescription: "Full-stack tool for language learning ",
       cardField: "education",
       link: "https://github.com/trushmi/vocab",
       isExternal: true,
     },
     {
       cardTitle: "TV show & your time",
-      cardDescription:
-        "Help you track how much time you have spend watching TV",
+      cardDescription: "React app to track time spent on TV shows",
       cardField: "movie",
-      link: "https://chic-sprinkles-594e54.netlify.app/",
+      link: "https://tvshowscalculator.com/",
       isExternal: true,
     },
     {
       cardTitle: "UWWC",
-      cardDescription: "React app for community",
+      cardDescription: "React app for community connection",
       cardField: "work",
       link: "https://uawwc.com/",
       isExternal: true,
     },
     {
       cardTitle: "To do list",
-      cardDescription: "Add and remove task you need to do",
+      cardDescription: "React app for task management",
       cardField: "work",
       link: "/ToDoList",
     },
     {
       cardTitle: "Fortune cookie",
-      cardDescription: "Open cookie, get prediction for today",
+      cardDescription: "React app: open cookie, get prediction for today",
       cardField: "game",
       link: "/fortuneCookie",
     },
     {
       cardTitle: "Words Counter",
-      cardDescription: "Count words in your text",
+      cardDescription: "React-based tool for word counting",
       cardField: "office",
       link: "/wordsCounter",
     },
 
-    {
-      cardTitle: "Movie app",
-      cardDescription: "Movies that coming soon ",
-      cardField: "movie",
-      link: "/movie",
-    },
+    // {
+    //   cardTitle: "Movie app",
+    //   cardDescription: "Movies that coming soon ",
+    //   cardField: "movie",
+    //   link: "/movie",
+    // },
   ];
 
   return (

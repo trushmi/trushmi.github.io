@@ -9,25 +9,26 @@
   background: $main-background-color;
   padding: 30px;
   border-radius: 10px;
-
+  .user-text {
+    padding: 10px;
+  }
   .clear-data-btn {
     color: $second-main-color;
     font-size: 16px;
     padding: 13px 30px;
-    background: $brand-color;
+    background: transparent;
     cursor: pointer;
-    border: none;
+    border: 1px solid gray;
   }
   .show-words-counter-result {
     margin: 20px;
   }
   .clear-data-btn:hover {
-    background-color: $second-main-color;
     font-size: 16px;
     padding: 13px 30px;
     color: $brand-color;
     cursor: pointer;
-    border: none;
+    border: 1px solid gray;
   }
   .words-counter-title {
     position: relative;

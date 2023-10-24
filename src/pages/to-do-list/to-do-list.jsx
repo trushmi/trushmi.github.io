@@ -66,9 +66,10 @@ export default function ToDoList() {
       <div className="to-do-list-wrapper">
         <form onSubmit={addTask} className="form-container">
           <input
-            placeholder="Note here..."
+            placeholder="Add a new task..."
             className="add-task"
             value={task}
+            required
             onInput={(e) => setTask(e.target.value)}
           />
           <button className="task-submit-btn" type="submit">

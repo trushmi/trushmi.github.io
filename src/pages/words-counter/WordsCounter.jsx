@@ -32,9 +32,10 @@ export default function WordsCounter() {
         value={text}
         onChange={(e) => setText(e.target.value)}
         className="user-text"
+        required
       ></textarea>
       <div className="show-words-counter-result">
-        Your text have {result} {word} and {numOfCharacters} {characters}
+        Your text has {result} {word} and {numOfCharacters} {characters}
       </div>
       <div>
         <button onClick={clearText} className="clear-data-btn">

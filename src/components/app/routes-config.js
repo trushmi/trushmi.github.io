@@ -55,12 +55,12 @@ export const routesConfig = [
   //   title: "top stories",
   //   omitNavigationLink: true,
   // },
-  {
-    path: "/movie",
-    element: <ComingSoonMovies />,
-    title: "Movies Coming Soon",
-    omitNavigationLink: true,
-  },
+  // {
+  //   path: "/movie",
+  //   element: <ComingSoonMovies />,
+  //   title: "Movies Coming Soon",
+  //   omitNavigationLink: true,
+  // },
   // {
   //   path: "/faq",
   //   element: <FrequentlyAskedQuestion />,

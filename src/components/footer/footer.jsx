@@ -9,7 +9,7 @@ export default function Footer() {
         <FaFish className="footer-icon" />
       </div>
       <div className="footer-description">
-        <div className="footer-title"> © 2022 M-I Trush </div>
+        <div className="footer-title"> © 2022 Trush </div>
       </div>
     </div>
   );
