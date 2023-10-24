@@ -3,7 +3,7 @@ import Projects from "../../pages/projects/projects";
 import FortuneCookie from "../../pages/fortune-cookie/fortune-cookie-page";
 import ToDoList from "../../pages/to-do-list/to-do-list";
 import WordsCounter from "../../pages/words-counter/WordsCounter";
-import ComingSoonMovies from "../movies/ComingSoonMovies";
+// import ComingSoonMovies from "../movies/ComingSoonMovies";
 // import FrequentlyAskedQuestion from "../FrequentlyAskedQ/FrequentlyAskedQuestion";
 // import Contact from "../../pages/contact/contact";
 // import News from "../../pages/news/news";
