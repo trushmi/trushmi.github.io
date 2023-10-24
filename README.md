@@ -65,3 +65,9 @@ This will start the development server, and the app should open in your default 
 ```
 npm run build
 ```
+
+## About Author
+
+My name is Iryna. I am a software engineer with a background in the media industry, leadership, and communications. I recently graduated from the Software Engineering Program at Hackbright Academy, where I honed my skills in full-stack development and fundamental computer science concepts.
+
+My technical expertise lies in object-oriented programming languages, particularly in Python. Additionally, I am well-versed in JavaScript, HTML, CSS, and the React framework, enabling me to create responsive and client-oriented user interfaces. My [LinkedIn](https://www.linkedin.com/in/trushmi/)
