@@ -4,7 +4,7 @@ import Btn from "../../../../components/btn/btn";
 //import Overview from "../overview/overview";
 import "./information.scss";
 
-const name = ["Maria-Iryna Trush"];
+const name = ["Iryna Trush"];
 
 export default function Text() {
   return (

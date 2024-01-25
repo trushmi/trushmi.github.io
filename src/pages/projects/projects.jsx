@@ -20,7 +20,7 @@ export default function Projects() {
       isExternal: true,
     },
     {
-      cardTitle: "TV show & your time",
+      cardTitle: "TV shows time tracker",
       cardDescription: "React app to track time spent on TV shows",
       cardField: "movie",
       link: "https://tvshowscalculator.com/",
@@ -51,13 +51,6 @@ export default function Projects() {
       cardField: "office",
       link: "/wordsCounter",
     },
-
-    // {
-    //   cardTitle: "Movie app",
-    //   cardDescription: "Movies that coming soon ",
-    //   cardField: "movie",
-    //   link: "/movie",
-    // },
   ];
 
   return (
