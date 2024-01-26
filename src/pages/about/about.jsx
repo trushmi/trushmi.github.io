@@ -13,7 +13,7 @@ import lmf from "./images/lmf.png";
 import citysites from "./images/citysites.jpeg";
 import logo032 from "./images/logo032.png";
 import bootcamp from "./images/bootcamp.png";
-
+import programemp from "./images/programemp.jpeg";
 const skillsData = [
   {
     icon: <FiCheckSquare />,
@@ -47,7 +47,17 @@ const skillsData = [
 ];
 const experienceData = [
   {
-    name: "Software Engineering Student",
+    name: "Software Engineer",
+    icon: <img src={programemp} />,
+    institution: "ProgramEquity",
+    description: [
+      "Contributed to a high-impact, open-source project Amplify focusing on climate advocacy effectively with a diverse team of software engineers.",
+      "Updated technical documentation, enhancing the clarity and accessibility of complex technical information.",
+      "Developed and implemented a new REST API endpoint, conducting comprehensive testing via Jest and Postman to ensure optimal functionality and reliability.",
+    ],
+  },
+  {
+    name: "Software Engineer Fellow",
     icon: <img src={bootcamp} />,
     institution: "Hackbright Academy",
     description: [
