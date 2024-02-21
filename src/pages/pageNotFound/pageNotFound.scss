@@ -1,0 +1,17 @@
+@import "/src/style/variables.scss";
+
+.notFoundPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $main-color;
+
+  .errorCode {
+    font-size: 10em;
+    margin: 0 auto;
+  }
+  .errorMsg {
+    font-size: 1.3em;
+  }
+}
