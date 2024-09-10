@@ -16,8 +16,8 @@ export default function Articles() {
   return (
     <div className="main-container">
       <div className="description-section-container">
-        Thoughts on topics ranging from coding challenges to software
-        development best practices I have learned.
+        Sharing my thoughts on coding challenges and the best practices I have
+        learned in software development
       </div>
       <div className="card-container">
         {cardData.map(
