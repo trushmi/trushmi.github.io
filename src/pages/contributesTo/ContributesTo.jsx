@@ -28,7 +28,7 @@ export default function ContributesTo() {
     },
   ];
   return (
-    <div>
+    <div className="main-container">
       <div className="about-section-container">
         The open-source projects I’ve contributed to, where collaboration and
         teamwork have driven my growth as a developer.
