@@ -1,4 +1,3 @@
-import About from "../../pages/about/about";
 import Projects from "../../pages/projects/projects";
 import FortuneCookie from "../../pages/fortune-cookie/fortune-cookie-page";
 import ToDoList from "../../pages/to-do-list/to-do-list";
@@ -9,11 +8,6 @@ export const routesConfig = [
     path: "/",
     element: <Projects />,
     title: "Projects",
-  },
-  {
-    path: "/resume",
-    element: <About />,
-    title: "Resume",
   },
 
   {
