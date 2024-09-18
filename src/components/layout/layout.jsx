@@ -1,7 +1,6 @@
 import React from "react";
 import Routes from "../app/routes";
 import Header from "../header/header";
-import Footer from "../footer/footer";
 import "./layout.scss";
 
 export default function Layout() {
@@ -11,7 +10,6 @@ export default function Layout() {
       <main className="layout-content">
         <Routes />
       </main>
-      <Footer />
     </div>
   );
 }
