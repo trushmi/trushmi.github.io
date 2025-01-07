@@ -1,6 +1,4 @@
 import Projects from "../../pages/projects/projects";
-import FortuneCookie from "../../pages/fortune-cookie/fortune-cookie-page";
-import ToDoList from "../../pages/to-do-list/to-do-list";
 import WordsCounter from "../../pages/words-counter/WordsCounter";
 import ContributesTo from "../../pages/contributesTo/ContributesTo";
 import Articles from "../../pages/articles/Articles";
@@ -23,18 +21,7 @@ export const routesConfig = [
     title: "Articles",
     omitNavigationLink: false,
   },
-  {
-    path: "/fortuneCookie",
-    element: <FortuneCookie />,
-    title: "Fortune Cookie",
-    omitNavigationLink: true,
-  },
-  {
-    path: "/toDoList",
-    element: <ToDoList />,
-    title: "To do list",
-    omitNavigationLink: true,
-  },
+
   {
     path: "/wordsCounter",
     element: <WordsCounter />,
