@@ -27,25 +27,6 @@ export default function Projects() {
       isExternal: true,
     },
     {
-      cardTitle: "UWWC",
-      cardDescription: "React app for community connection",
-      cardField: "",
-      link: "https://uawwc.com/",
-      isExternal: true,
-    },
-    {
-      cardTitle: "To do list",
-      cardDescription: "React app for task management",
-      cardField: "",
-      link: "/ToDoList",
-    },
-    {
-      cardTitle: "Fortune cookie",
-      cardDescription: "React app: open cookie, get prediction for today",
-      cardField: "",
-      link: "/fortuneCookie",
-    },
-    {
       cardTitle: "Words Counter",
       cardDescription: "React-based tool for word counting",
       cardField: "",
