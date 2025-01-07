@@ -1,4 +1,4 @@
-@import '/src/style/variables.scss';
+@import "/src/style/variables.scss";
 
 .card {
   display: flex;
@@ -9,7 +9,7 @@
   cursor: pointer;
   background-color: transparent;
   text-decoration: none;
-  height: 310px;
+  height: 340px;
   align-items: center;
 
   @media screen and (max-width: $mobile-bp) {
@@ -33,7 +33,7 @@
     font-weight: bold;
   }
   .card-logo:after {
-    content: '';
+    content: "";
     position: absolute;
     height: 1.5px;
     background-color: $main-color;
@@ -47,5 +47,8 @@
   }
   @media screen and (max-width: $mobile-bp) {
     max-width: 220px;
+  }
+  .card-field {
+    margin: 40px 0;
   }
 }
