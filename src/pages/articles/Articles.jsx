@@ -29,10 +29,6 @@ export default function Articles() {
   ];
   return (
     <div className="articles-wrapper">
-      <div className="description-section-container">
-        Sharing my thoughts on coding challenges and the best practices I have
-        learned in software development
-      </div>
       <div className="card-container">
         {cardData.map(
           (
