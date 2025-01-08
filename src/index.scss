@@ -1,9 +1,9 @@
-@import './style/commons.scss';
-@import '/src/style/variables.scss';
+@import "./style/commons.scss";
+@import "/src/style/variables.scss";
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   background: $brand-color;
 }
@@ -13,6 +13,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

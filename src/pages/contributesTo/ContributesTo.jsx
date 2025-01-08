@@ -29,10 +29,6 @@ export default function ContributesTo() {
   ];
   return (
     <div className="contributing-to-wrapper">
-      <div className="about-section-container">
-        The open-source projects I’ve contributed to, where collaboration and
-        teamwork have driven my growth as a developer.
-      </div>
       <div className="card-container">
         {cardData.map(
           (
