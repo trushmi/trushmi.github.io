@@ -1,4 +1,4 @@
-@import '/src/style/variables.scss';
+@import "/src/style/variables.scss";
 
 .nav-container {
   .nav-block {
@@ -28,10 +28,10 @@
   }
 
   .nav-link.active::after {
-    content: '';
+    content: "";
     position: absolute;
     height: 2px;
-    background-color: $main-color;
+    background-color: $border-color;
     width: 80%;
     left: 50%;
     bottom: 0;
