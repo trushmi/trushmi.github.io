@@ -6,6 +6,13 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   const cardData = [
     {
+      cardTitle: "TypeScript Components",
+      cardDescription: "My 10 reusable React & TypeScript components",
+      cardField: "",
+      link: "https://codesandbox.io/p/sandbox/cool-mountain-798d75?file=%2Fsrc%2FApp.tsx",
+      isExternal: true,
+    },
+    {
       cardTitle: "AI: Review Analyzer",
       cardDescription: "NLP-based tool for classifying reviews",
       cardField: "",
