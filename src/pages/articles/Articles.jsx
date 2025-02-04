@@ -20,7 +20,7 @@ export default function Articles() {
       isExternal: true,
     },
     {
-      cardTitle: "7 Essential Events in React",
+      cardTitle: "Essential JavaScript Events for React Developers",
       cardDescription: "Overview with code snippets",
       cardField: "React, TypeScript",
       link: "https://dev.to/trushmi/7-essential-events-in-react-you-need-to-know-aan",
