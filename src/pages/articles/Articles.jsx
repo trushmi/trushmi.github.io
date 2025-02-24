@@ -6,7 +6,14 @@ import "./articles.scss";
 export default function Articles() {
   const cardData = [
     {
-      cardTitle: "Convert Text to Speech with Python",
+      cardTitle: "21 essential Git Commands",
+      cardDescription: "Detailed Git tutorial",
+      cardField: "Git",
+      link: "https://dev.to/trushmi/21-essential-git-commands-explained-in-11-minutes-493k",
+      isExternal: true,
+    },
+    {
+      cardTitle: "Convert Text to Speech",
       cardDescription: "A step-by-step guide ",
       cardField: "Python",
       link: "https://medium.com/@trushmi415/convert-text-to-speech-with-python-b0f0d43a4ad9",
@@ -20,7 +27,7 @@ export default function Articles() {
       isExternal: true,
     },
     {
-      cardTitle: "Essential JavaScript Events for React Developers",
+      cardTitle: " Seven JavaScript events",
       cardDescription: "Overview with code snippets",
       cardField: "React, TypeScript",
       link: "https://dev.to/trushmi/7-essential-events-in-react-you-need-to-know-aan",
